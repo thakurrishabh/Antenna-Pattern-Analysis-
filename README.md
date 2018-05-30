@@ -15,6 +15,7 @@ The user has the following options to control the pattern of the array :
 7.Enter your own number of elements(n), distance(d), successive excitaion phase difference(del) 
 0.Exit 
 
+Except 0,1 and 2 options all other options display the changes happening to the antenna array pattern as the values are changed in the form of an ANIMATION. Functions have been implemented to carry out the above tasks.
 The program computes and displays the pattern of a UNIFORM LINEAR ARRAY based on the formula pat=(1/N)*(sin((N*psi)/2)/sin(psi/2)) where psi=((beta*d)*cos(phi))+delta, beta=(2*pi)/lambda, delta= successive excitation phase difference, phi=spherical coordinate from 0 to 2*pi.
 theta=spherical coordinate from 0 to pi.
 
